@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 107.9 105.5" style="enable-background:new 0 0 107.9 105.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E15B29;}
+	.st1{fill:#FCB61A;}
+	.st2{fill:none;stroke:#E15B29;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FCB61A;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_00000168825762238603657310000004957569019937740696_);}
+	.st5{fill:#1B3E6F;}
+	.st6{fill:#E25C28;}
+	.st7{fill:#3B6EAD;}
+	.st8{fill:#ED273A;}
+	.st9{fill:#30BBAD;}
+	.st10{fill:#1F99BE;}
+	.st11{fill:#71C499;}
+	.st12{fill:#249A8D;}
+	.st13{fill:#B1202A;}
+	.st14{fill:#1C3C6D;}
+</style>
+<g>
+	<g>
+		<g>
+			<circle class="st0" cx="66.2" cy="28.8" r="2.6"/>
+			<circle class="st1" cx="82" cy="48.8" r="2.6"/>
+			<circle class="st0" cx="59.8" cy="43.7" r="1.3"/>
+			<circle class="st0" cx="65.4" cy="50.7" r="1.3"/>
+			<circle class="st0" cx="34.2" cy="53.6" r="1.7"/>
+			<circle class="st1" cx="49.5" cy="73" r="1.7"/>
+		</g>
+		<g>
+			<circle class="st2" cx="66.2" cy="29" r="5.8"/>
+			<polyline class="st2" points="61.6,32.6 46.4,44.5 36.2,43.4 6.5,66.9 			"/>
+			<circle class="st3" cx="81.9" cy="48.7" r="5.8"/>
+			<polyline class="st3" points="77.3,52.4 62.2,64.5 61.1,74.7 31.4,98.2 			"/>
+			<g>
+				<polyline class="st2" points="63,52.5 47.3,64.9 37.9,63.5 17,80.1 				"/>
+			</g>
+			<circle class="st2" cx="59.8" cy="43.7" r="2.9"/>
+			<circle class="st2" cx="65.3" cy="50.7" r="2.9"/>
+			<polyline class="st2" points="57.5,45.6 41.9,58.1 41.1,67.5 20.2,84.1 			"/>
+			<circle class="st2" cx="34.1" cy="53.6" r="3.9"/>
+			<polyline class="st2" points="31,56 21.1,64 20.3,70.7 13.9,75.8 			"/>
+			<circle class="st3" cx="49.5" cy="73.1" r="3.9"/>
+			<polyline class="st3" points="46.5,75.5 36.4,83.4 29.7,82.6 23.1,87.8 			"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M54,9.4l36.2,17.4l8.9,39.2l-25,31.4H33.9l-25-31.4l8.9-39.2L54,9.4 M54,1.1L11.3,21.6L0.8,67.8l29.5,37
+				h47.4l29.5-37L96.7,21.6L54,1.1L54,1.1z"/>
+		</defs>
+		<clipPath id="SVGID_00000086663176385002184220000005823080509755604647_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000086663176385002184220000005823080509755604647_);">
+			<polygon class="st5" points="56,20.6 39.2,-9.7 34.4,17.4 29.1,47.5 67.9,77.2 81,65.7 			"/>
+			<polygon class="st6" points="-20.6,9.3 15.8,122.9 29.1,47.5 			"/>
+			<polygon class="st1" points="29.1,47.5 15.8,122.9 67.9,77.2 			"/>
+			<polygon class="st7" points="121.4,30.3 39.2,-9.7 56,20.6 			"/>
+			<polygon class="st8" points="39.2,-9.7 -20.6,9.3 34.4,17.4 			"/>
+			<polygon class="st9" points="15.8,122.9 101.8,103.3 67.9,77.2 			"/>
+			<polygon class="st10" points="81,65.7 121.4,30.3 56,20.6 			"/>
+			<polygon class="st11" points="81,65.7 101.8,103.3 121.4,30.3 			"/>
+			<polygon class="st12" points="67.9,77.2 101.8,103.3 81,65.7 			"/>
+			<polygon class="st13" points="34.4,17.4 -20.6,9.3 29.1,47.5 			"/>
+			<polygon class="st14" points="56,20.6 39.2,-9.7 34.4,17.4 			"/>
+		</g>
+	</g>
+</g>
+</svg>
