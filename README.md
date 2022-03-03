@@ -1,5 +1,3 @@
-# Qexal
-
 ## Project setup
 ```
 yarn install

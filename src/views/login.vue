@@ -28,10 +28,10 @@ export default {
                     src="@/assets/images/logo-dark.png"
                     alt=""
                     class="logo-dark"
-                    height="30"
+                    height="70"
                   />
                 </router-link>
-                <p class="text-muted mt-2">Sign in to continue to Qexal.</p>
+                <p class="text-muted mt-2">Sign in to continue to Cloudreports.</p>
               </div>
               <div class="p-3">
                 <form novalidate="" action="#" method="get" class="av-invalid">

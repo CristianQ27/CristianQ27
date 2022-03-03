@@ -24,7 +24,7 @@ export default {
                     src="@/assets/images/logo-dark.png"
                     alt=""
                     class="logo-dark"
-                    height="30"
+                    height="70"
                   />
                 </router-link>
                 <p class="text-muted mt-2">Sign up for a new Account</p>
