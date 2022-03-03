@@ -17,7 +17,7 @@
     <header>
         <!--Navbar-->
         <!-- navbar-dark bg-dark -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top px-5">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand"><img src="/assets/img/brand-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -43,7 +43,7 @@
     <!--Main layout-->
     <main>
         <!-- Splash Carousel -->
-        <div id="carouselExampqleControls" class="carousel slide mb-5 pb-5" data-bs-ride="carousel">
+        <div id="carouselExampqleControls" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="assets/img/splash-color-min.jpg" class="d-block w-100" alt="...">
@@ -88,42 +88,57 @@
           </div>
           <!-- Carousel Clients -->
 
-        <div class="container mt-5 pt-5">
+        <div class="container mt-5 pt-5 px-3">
             <div class="w-100 text-center mb-5">
                 <h1 class="text-white">Work with us</h1>
             </div>
-            <div class="row text-white">
-                <div class="col-4">
+            <div class="row text-white pb-3">
+                <div class="col-md-4 mb-3">
                     <div class="row">
-                        <div class="col-3"><img src="/assets/icon/Group1.svg" alt=""></div>
-                        <div class="col-9">Established experts in performance analysis</div>
+                        <div class="col-3"><img class="icon" src="/assets/icon/Group1.svg" alt=""></div>
+                        <div class="col-9">
+                          <h6 class="feature-title">Established experts in performance analysis</h6>
+                          <p class="feature-text">Serving the industry with performance benchmarking data and actionable intelligence since 2013, Gamebench relies on well researched scientific methods developed in its core Scientific Technology Lab.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3">
                     <div class="row">
                         <div class="col-3"><img src="/assets/icon/Group2.svg" alt=""></div>
-                        <div class="col-9">Vast Gaming Ecosystem Experience</div>
+                        <div class="col-9">
+                          <h6 class="feature-title">Vast Gaming Ecosystem Experience</h6>
+                          <p class="feature-text">We have forged long term partnerships with prominent players in the gaming ecosystem like leading platform providers, OEMs, mobile networks & content creators.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3">
                     <div class="row">
                         <div class="col-3"><img src="/assets/icon/Group3.svg" alt=""></div>
-                        <div class="col-9">Solutions for Engineering, QA and Marketing</div>
+                        <div class="col-9">
+                          <h6 class="feature-title">Solutions for Engineering, QA and Marketing</h6>
+                          <p class="feature-text">Our performance monitoring solutions cover each stage of the game or device development  lifecycle</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3">
                     <div class="row">
                         <div class="col-3"><img src="/assets/icon/Group4.svg" alt=""></div>
-                        <div class="col-9">Objective Data</div>
+                        <div class="col-9">
+                          <h6 class="feature-title">Objective Data</h6>
+                          <p class="feature-text">We collect independent, unbiased performance data from real life users  across commonly used platforms</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3">
                     <div class="row">
                         <div class="col-3"><img src="/assets/icon/Group5.svg" alt=""></div>
-                        <div class="col-9">Seamless Integration</div>
+                        <div class="col-9">
+                          <h6 class="feature-title">Seamless Integration</h6>
+                          <p class="feature-text">Our performance monitoring solutions integrate seamlessly with the development cycle of our clients</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 mb-3">
                     <div class="row">
                         <div class="col-3"><img src="/assets/icon/Group6.svg" alt=""></div>
                         <div class="col-9 p0-0">
@@ -133,6 +148,38 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container my-3 py-3 px-3">
+          <div class="row text-white justify-content-center">
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-3"><img class="" src="/assets/icon/Group7.svg" alt=""></div>
+                <div class="col-9 p0-0">
+                    <h6 class="feature-title">67224+</h6>
+                    <p class="feature-text">HOURS OF TESTING</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-3"><img class="" src="/assets/icon/Group8.svg" alt=""></div>
+                <div class="col-9 p0-0">
+                    <h6 class="feature-title">18411+</h6>
+                    <p class="feature-text">GAMES PLAYED</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-3"><img class="" src="/assets/icon/Group9.svg" alt=""></div>
+                <div class="col-9 p0-0">
+                    <h6 class="feature-title">7016+</h6>
+                    <p class="feature-text">DEVICE MODELS TESTED</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -173,6 +220,14 @@
           }]
         });
       });
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass('navbar-dark bg-dark mt-0', $(this).scrollTop() > $nav.height());
+      });
+    });
+
     </script>
 </body>
 </html>

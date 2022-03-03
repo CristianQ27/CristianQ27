@@ -13,7 +13,10 @@ body{
 
 /* Navbar CSS */
 .navbar{
-    margin-top: 74px;
+    margin-top: 50px;
+    transition: background-color 200ms linear;
+    transition: margin 200ms linear;
+
 }
 .navbar-brand img{
     width: 180px;
@@ -162,6 +165,10 @@ body{
 ;
   }
 
+  .icon{
+    width: 50px;
+  }
+
 
   /* feature */
 
@@ -173,3 +180,50 @@ body{
     
  }
 /* Media Querys */
+
+
+
+
+.dropdown-toggle{
+  border:none;
+  background-color: transparent;
+  outline:0;
+}
+.dropdown-toggle:active{
+  box-shadow:none;
+}
+
+.btn.dropdown-toggle:focus{
+  outline:0;
+}
+
+.dropdown-toggle[aria-expanded="true"] .caret{
+  transform:rotate(180deg);
+  transition:all ease 0.5s;
+}
+.dropdown-toggle .caret{
+  transition:all ease 0.5s;
+}
+.dropdown .dropdown-menu{
+  height:0;
+  padding:0;
+  overflow:hidden;
+  margin:0;
+  display:block;
+  border:none;
+  box-shadow:2px 2px 2px rgba(33,150,243,0.2);
+  border-bottom:1px solid #2196F3;
+  transition:all ease 0.5s;
+  border-radius:0px;
+  padding-left:2px;
+  padding-right:2px;
+}
+.dropdown.open > .dropdown-menu{
+  height:auto;
+  
+}
+.dropdown.open > .dropdown-menu > li a:hover{
+  background-color: #2196F3;
+  border-radius:5px;
+  color:#fff;
+}
