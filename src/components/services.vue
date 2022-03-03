@@ -17,8 +17,10 @@ export default {
         <div class="col-lg-7 text-center">
           <h2 class="fw-bold">Our Services</h2>
           <p class="text-muted">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam rem ab illo inventore.
+            To provide Small and Medium Businesses solutions with proven cost-effective business processes, 
+            saving time and money in the exchange between producers and consumers in order to streamline 
+            business operations and develop a collaborative environment that allows any SMB to overperform, 
+            furthering relationships with their suppliers, customers and employees.
           </p>
         </div>
       </div>
@@ -32,8 +34,7 @@ export default {
               </div>
               <h4 class="mb-3 font-size-22">Digital Design</h4>
               <p class="text-muted mb-0">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis.
+                We provide a customer friendly easy to use environment, designed specially to save you time and effort.
               </p>
             </div>
           </div>
@@ -50,8 +51,7 @@ export default {
               </div>
               <h4 class="mb-3 font-size-22">Awesome Support</h4>
               <p class="text-muted mb-0">
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                corporis suscipit.
+                We provide flexible and customizable support to fit all your needs during our journey.
               </p>
             </div>
           </div>
@@ -66,8 +66,7 @@ export default {
               </div>
               <h4 class="mb-3 font-size-22">Easy to customize</h4>
               <p class="text-muted mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                doloremque.
+                Let's have a chat and see what is your fit. We are sure we can meet there.
               </p>
             </div>
           </div>

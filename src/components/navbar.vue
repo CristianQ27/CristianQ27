@@ -136,7 +136,7 @@ export default {
             >
           </li>
         </ul>
-        <a href="https://appmc.cloudreports.biz/login/?next=/" target="_blank" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Entrar</a>
+        <a href="https://appmc.cloudreports.biz/login/?next=/" target="_blank" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Enter</a>
       </div>
     </div>
     <!-- end container -->

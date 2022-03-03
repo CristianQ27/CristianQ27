@@ -14,151 +14,16 @@ export default {
         <div class="col-lg-7 text-center">
           <h2 class="fw-bold">Pricing Plan</h2>
           <p class="text-muted">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam rem ab illo inventore.
+            We have the right solution for each type of company and you can also contact us to design a suitable plan for you.
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
           <div class="text-center mb-4 pricing-tab">
-            <b-tabs
-              pills
-              justified
-              nav-class="rounded-pill d-inline-block shadow-sm"
-              content-class="mt-4"
-            >
-              <b-tab
-                title-item-class="d-inline-block"
-                title-link-class="rounded-pill"
-              >
-                <template v-slot:title> Monthly </template>
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div
-                      class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden"
-                    >
-                      <div class="card-body px-4 py-5">
-                        <div
-                          class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
-                        >
-                          <img
-                            src="@/assets/images/pricing/1.png"
-                            alt=""
-                            class="img-fluid d-block mx-auto"
-                          />
-                        </div>
-                        <h4 class="text-uppercase mb-4 pb-1">Pro</h4>
-                        <p class="text-muted">
-                          Up to <span class="fw-bold">300</span> users
-                        </p>
-                        <p class="text-muted">
-                          Full <span class="fw-bold">Support</span>
-                        </p>
-                        <p class="text-muted mb-4 pb-1">Includes 1 user</p>
-                        <p class="text-muted font-size-14 mb-1">
-                          +$4 per additional user
-                        </p>
-                        <p
-                          class="text-dark font-size-16 font-weight-semibold mb-4"
-                        >
-                          $95.00 USD / Month 
-                        </p>
-                        <a
-                          href="javascript: void(0);"
-                          class="btn btn-soft-primary"
-                          >Buy Now</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div
-                      class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden"
-                    >
-                      <div class="card-body px-4 py-5">
-                        <span
-                          class="badge badge-primary pricing-badge shadow-lg"
-                          >Most Popular</span
-                        >
 
-                        <div
-                          class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
-                        >
-                          <img
-                            src="@/assets/images/pricing/2.png"
-                            alt=""
-                            class="img-fluid d-block mx-auto"
-                          />
-                        </div>
-                        <h4 class="text-uppercase mb-4 pb-1">Business</h4>
-                        <p class="text-muted">
-                          <span class="fw-bold">300+</span> users
-                        </p>
-                        <p class="text-muted">
-                          For large teams <br> with specific needs. 
-                        </p>
-                        <!-- <p class="text-muted mb-4 pb-1">Domain 1</p>
-                        <p class="text-muted font-size-14 mb-1">
-                          All Extension Included
-                        </p>
-                        <p
-                          class="text-dark font-size-16 font-weight-semibold mb-4"
-                        >
-                          $39.00 / Month
-                        </p> -->
-                        <a href="javascript: void(0);" class="btn btn-primary"
-                          >Contact Us </a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div
-                      class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden"
-                    >
-                      <div class="card-body px-4 py-5">
-                        <div
-                          class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
-                        >
-                          <img
-                            src="@/assets/images/pricing/3.png"
-                            alt=""
-                            class="img-fluid d-block mx-auto"
-                          />
-                        </div>
-                        <h4 class="text-uppercase mb-4 pb-1">Premium</h4>
-                        <p class="text-muted">
-                          .: <span class="fw-bold">.</span>
-                        </p>
-                        <p class="text-muted">
-                          .: <span class="fw-bold">.</span>
-                        </p>
-                        <p class="text-muted mb-4 pb-1">. 1</p>
-                        <p class="text-muted font-size-14 mb-1">
-                          .
-                        </p>
-                        <p
-                          class="text-dark font-size-16 font-weight-semibold mb-4"
-                        >
-                          .
-                        </p>
-                        <a
-                          href="javascript: void(0);"
-                          class="btn btn-soft-primary"
-                          >Buy Now</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--end row-->
-              </b-tab>
-              <b-tab
-                title-item-class="d-inline-block"
-                title-link-class="rounded-pill"
-              >
-                <template v-slot:title> Yearly </template>
+              <h4 class="fw-bold"> Monthly </h4>
+              
                 <div class="row">
                   <div class="col-lg-4">
                     <div
@@ -176,60 +41,23 @@ export default {
                         </div>
                         <h4 class="text-uppercase mb-4 pb-1">Basic</h4>
                         <p class="text-muted">
-                          Onlinespace: <span class="fw-bold">50MB</span>
+                          Up to <span class="fw-bold">300</span> users
                         </p>
                         <p class="text-muted">
-                          Support: <span class="fw-bold">No</span>
+                          Full <span class="fw-bold">Support</span>
                         </p>
-                        <p class="text-muted mb-4 pb-1">Domain 1</p>
+                        <p class="text-muted mb-4 pb-1">Includes 1 user</p>
                         <p class="text-muted font-size-14 mb-1">
-                          All Extension Included
+                          +$1 per additional user
                         </p>
                         <p
                           class="text-dark font-size-16 font-weight-semibold mb-4"
                         >
-                          $29.00 / Year
+                          $95.00 USD / Month 
                         </p>
                         <a
-                          href="javascript: void(0);"
-                          class="btn btn-soft-primary"
-                          >Buy Now</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div
-                      class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden"
-                    >
-                      <div class="card-body px-4 py-5">
-                        <div
-                          class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
-                        >
-                          <img
-                            src="@/assets/images/pricing/2.png"
-                            alt=""
-                            class="img-fluid d-block mx-auto"
-                          />
-                        </div>
-                        <h4 class="text-uppercase mb-4 pb-1">Standard</h4>
-                        <p class="text-muted">
-                          Onlinespace: <span class="fw-bold">100MB</span>
-                        </p>
-                        <p class="text-muted">
-                          Support: <span class="fw-bold">Yes</span>
-                        </p>
-                        <p class="text-muted mb-4 pb-1">Domain 1</p>
-                        <p class="text-muted font-size-14 mb-1">
-                          All Extension Included
-                        </p>
-                        <p
-                          class="text-dark font-size-16 font-weight-semibold mb-4"
-                        >
-                          $49.00 / Year
-                        </p>
-                        <a
-                          href="javascript: void(0);"
+                          href="https://appmc.cloudreports.biz/register/new/"
+                          target="_blank"
                           class="btn btn-soft-primary"
                           >Buy Now</a
                         >
@@ -245,6 +73,46 @@ export default {
                           class="badge badge-primary pricing-badge shadow-lg"
                           >Most Popular</span
                         >
+
+                        <div
+                          class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
+                        >
+                          <img
+                            src="@/assets/images/pricing/2.png"
+                            alt=""
+                            class="img-fluid d-block mx-auto"
+                          />
+                        </div>
+                        <h4 class="text-uppercase mb-4 pb-1">Partner</h4>
+                        <p class="text-muted">
+                          Up to <span class="fw-bold">500</span> users
+                        </p>
+                        <p class="text-muted">
+                          Full <span class="fw-bold">Support</span>
+                        </p>
+                        <p class="text-muted mb-4 pb-1">Includes 1 user</p>
+                        <p class="text-muted font-size-14 mb-1">
+                          +$1 per additional user
+                        </p>
+                        <p
+                          class="text-dark font-size-16 font-weight-semibold mb-4"
+                        >
+                          $50.00 USD / Month + Partnership fee
+                        </p>
+                        <a
+                          href="https://appmc.cloudreports.biz/register/new/"
+                          target="_blank"
+                          class="btn btn-soft-primary"
+                          >Buy Now</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div
+                      class="card plan-card mt-4 rounded text-center border-0 shadow overflow-hidden"
+                    >
+                      <div class="card-body px-4 py-5">
                         <div
                           class="icon-mono avatar-md bg-soft-primary rounded mx-auto mb-5 p-3"
                         >
@@ -254,36 +122,26 @@ export default {
                             class="img-fluid d-block mx-auto"
                           />
                         </div>
-                        <h4 class="text-uppercase mb-4 pb-1">Premium</h4>
+                        <h4 class="text-uppercase mb-4 pb-1">Enterprise</h4>
                         <p class="text-muted">
-                          Onlinespace: <span class="fw-bold">200MB</span>
+                          <span class="fw-bold">500 or more</span> users
                         </p>
                         <p class="text-muted">
-                          Support: <span class="fw-bold">No</span>
+                         Custom <span class="fw-bold">implementation</span>
                         </p>
-                        <p class="text-muted mb-4 pb-1">Domain 1</p>
-                        <p class="text-muted font-size-14 mb-1">
-                          All Extension Included
+                        <p class="text-muted mb-5 pb-4">
+                          For large teams <br> with specific needs. 
                         </p>
-                        <p
-                          class="text-dark font-size-16 font-weight-semibold mb-4"
-                        >
-                          $99.00 / Year
-                        </p>
-                        <a
-                          href="javascript: void(0);"
-                          class="btn btn-soft-primary"
-                          >Buy Now</a
+                      
+                        
+                        <a href="javascript: void(0);" class="btn btn-primary mt-2" v-scroll-to="'#contact'"
+                          >Contact Us </a
                         >
                       </div>
                     </div>
                   </div>
                 </div>
                 <!--end row-->
-              </b-tab>
-            </b-tabs>
-
-            
           </div>
           <!-- end tab content -->
         </div>

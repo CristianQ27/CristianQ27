@@ -27,8 +27,8 @@ export default {
                 height="70"
             /></router-link>
             <p class="text-white-50 my-4">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti.
+              We provide lean advise and consulting for small and medium businesses that take their first online steps. Come join us and see how we can help your business grow.
+  
             </p>
           </div>
         </div>
@@ -40,9 +40,6 @@ export default {
               <div class="mt-4 mt-lg-0">
                 <h4 class="text-white font-size-18 mb-3">Customer</h4>
                 <ul class="list-unstyled footer-sub-menu">
-                  <li>
-                    <a href="javascript: void(0);" class="footer-link">Works</a>
-                  </li>
                   <li>
                     <a href="javascript: void(0);" class="footer-link"
                       >Strategy</a
@@ -152,7 +149,7 @@ export default {
           <div class="text-center mt-5">
             <p class="text-white-50 f-15 mb-0">
               {{ new Date().getFullYear() }}
-              © Qexal. Design By Themesbrand
+              © Cloudreports Inc.
             </p>
           </div>
         </div>

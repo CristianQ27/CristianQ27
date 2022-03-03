@@ -50,17 +50,18 @@ export default {
                 Optimize Your Service Business
               </h1>
               <p class="text-white-70 mb-4 mb-lg-5">
-                Nemo enim ipsam voluptatem quia voluptas sit aut aspernatur aut
-                fugit sed quia consequuntur magni dolores ratione voluptatem
-                nesciunt.
+                We bring lean advice and consulting for small and medium businesses that take their first online steps. 
+                Come join us and see how we can help your business grow.
+
               </p>
               <a
-                href="javascript: void(0);"
+                href="https://appmc.cloudreports.biz/register/new/"
+                target="_blank"
                 class="btn btn-lg btn-light rounded-pill me-2"
                 >Get Started</a
               >
               <div
-                class="d-inline-block"
+                class="d-none"
                 data-toggle="modal"
                 data-target="#watchvideomodal"
               >
