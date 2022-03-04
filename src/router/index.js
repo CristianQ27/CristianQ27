@@ -12,38 +12,6 @@ const routes = [{
         component: () => import('../views/index1.vue')
     },
     {
-        path: '/index-2',
-        component: () => import('../views/index2.vue')
-    },
-    {
-        path: '/index-3',
-        component: () => import('../views/index3.vue')
-    },
-    {
-        path: '/index-4',
-        component: () => import('../views/index4.vue')
-    },
-    {
-        path: '/index-5',
-        component: () => import('../views/index5.vue')
-    },
-    {
-        path: '/index-6',
-        component: () => import('../views/index6.vue')
-    },
-    {
-        path: '/index-7',
-        component: () => import('../views/index7.vue')
-    },
-    {
-        path: '/index-8',
-        component: () => import('../views/index8.vue')
-    },
-    {
-        path: '/index-9',
-        component: () => import('../views/index9.vue')
-    },
-    {
         path: '/login',
         component: () => import('../views/login.vue')
     },
