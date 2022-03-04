@@ -1,6 +1,11 @@
 <script>
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
+  components: {
+    Carousel,
+    Slide
+  },
   data() {
     return {
       teamData: [
@@ -32,7 +37,7 @@ export default {
         {
           profile: require("@/assets/images/team/6.png"),
           name: "Credican",
-          url: "www.creditcan.com.dov",
+          url: "www.creditcan.com",
         },
       ],
     };
@@ -48,60 +53,44 @@ export default {
         <div class="col-lg-7 text-center">
           <h2 class="fw-bold">Our Partners</h2>
           <p class="text-muted">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam rem ab illo inventore.
+            Meet some of our Clients and Partners.
           </p>
         </div>
       </div>
 
-      <div class="row">
-        <div
-          class="col-lg-3 col-sm-6"
+
+    <!-- Carousel Partners -->
+    <div class="row">
+      <div class="container">
+    <carousel :perPageCustom="[[480, 2], [768, 4]]" :mouse-drag="true" :loop="true" :centerMode="true">
+      <slide 
+          class="p-2 overflow-hidden"
           v-for="(item, index) of teamData"
           :key="index"
-        >
-          <div
-            class="team-box mt-4 position-relative overflow-hidden rounded text-center shadow"
+          >
+        <div
+            class="team-box mt-4 p-2 position-relative overflow-hidden rounded text-center shadow set-h"
           >
             <div class="position-relative overflow-hidden">
               <img
                 :src="item.profile"
                 alt=""
-                class="img-fluid d-block mx-auto"
+                class="d-block mx-auto img-fluid"
               />
-              <!-- <ul class="list-inline p-3 mb-0 team-social-item">
-                <li class="list-inline-item mx-3">
-                  <a
-                    href="javascript: void(0);"
-                    class="team-social-icon h-primary"
-                    ><facebook-icon class="icon-sm"></facebook-icon
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-3">
-                  <a href="javascript: void(0);" class="team-social-icon h-info"
-                    ><twitter-icon class="icon-sm"></twitter-icon
-                  ></a>
-                </li>
-                <li class="list-inline-item mx-3">
-                  <a
-                    href="javascript: void(0);"
-                    class="team-social-icon h-danger"
-                    ><instagram-icon class="icon-sm"></instagram-icon
-                  ></a>
-                </li>
-              </ul> -->
             </div>
-            <div class="p-4">
+            <div class="py-4">
               <h5 class="font-size-19 mb-1">{{ item.name }}</h5>
-              <p class="text-muted text-uppercase font-size-14 mb-0">
+              <p class="text-muted text-uppercase font-size-13 mb-0">
                 {{ item.url }}
               </p>
             </div>
           </div>
-        </div>
-        <!-- end col -->
-      </div>
-      <!-- end row -->
+      </slide>
+    </carousel>
+    </div>
+    </div>
+    <!-- Carousel Partners End-->
+
     </div>
     <!-- end container -->
   </section>

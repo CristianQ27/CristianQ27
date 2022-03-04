@@ -151,9 +151,7 @@ export default {
             <div class="text-center">
               <h1 class="text-white mb-4">Why us ?</h1>
               <p class="text-white mb-5 font-size-16">
-                Sed perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium totamrem aperiam eaque
-                inventore veritatis quasi.
+                We are an emerging company focused on those little details that can bring value and advantages into solutions for you and your team while making it friendly and intuitive.
               </p>
               <a href="#" class="btn btn-lg btn-light" v-scroll-to="'#contact'">Ask for Demonstration</a>
             </div>

@@ -28,20 +28,20 @@ export default {
               ></div>
               <div class="card-body mx-auto p-sm-5 p-4">
                 <div class="row justify-content-center">
-                  <div class="col-lg-10">
+                  <div class="col-lg-12">
                     <div class="p-3">
-                      <h2 class="text-white mb-4">
+                      <h2 class="text-white mb-4 w-100">
                         Join our Growing Partnership
                       </h2>
-                      <p class="text-white-70 font-size-16 mb-4 pb-3">
+                      <!-- <p class="text-white-70 font-size-16 mb-4 pb-3">
                         Far far away, behind the word mountains, far from the
                         countries Vokalia and Consonantia, there live the blind
                         texts.
-                      </p>
+                      </p> -->
                       <a
                         href="javascript: void(0);"
                         class="btn btn-light rounded-pill"
-                        >Sign Up for free</a
+                        >Get a Quote</a
                       >
                     </div>
                   </div>
